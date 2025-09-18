@@ -1,3 +1,18 @@
 html, body {
     background-color: #000000;
+    margin: 0;
+    height: 100%;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+iframe {
+    transform: scale(0.85);
+    transform-origin: center;
+    border: none;
 }
